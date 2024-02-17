@@ -1,12 +1,30 @@
-Simple python script to replace frontmatter properties in markdown files.
+## Simple python script to replace frontmatter properties in markdown files.
 
-I created this to quickly rename properties that did not match my naming conventions.
+I said "be consistent in property names."
 
-I've tested in backup Obsidian vaults and it works fine.
+https://x.com/contentfullness/status/1757599783118877039?s=20
 
-Nevertheless, if you are going to use it, make sure to backup your vault and test it on non-essential data first.
+And I meant it.
+
+But it turned out, I had some names in there that didn't fit the rule.
+
+And not wanting to be a hypocrite, I made a python script that allows me to preserve my integrity.
+
+I've tested it on a backup vault and it works just fine.
+
+It will find and replace both words and phrases in the following way.
+
+Publish date → publish_date
+source_link → source link
+
+It will only touch front matter properties delimited by "---"
+This is to preserve the keep your notes unaltered and avoid trashing your Obsidian installation.
+You can easily modify it for other purpose, just be careful.
+
+Nevertheless, if you decide to use it, **back up your vaults** and test it on some **non-essential data** first.
 
 Adam Ralph
 17 February 2024
 
 x.com/contentfullness
+
